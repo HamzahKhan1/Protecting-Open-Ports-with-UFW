@@ -19,6 +19,7 @@
 ## **Objective**
 - We will use UFW to configure a firewall that denies traffic from certain protocols and allows traffic from others.
 - Use `ufw --help` to get a quick, simple overview of different arguments you can use with UFW.
+- Picture:
 
 ## **Process**
 - In Ubuntu, open a Firefox browser and navigate to any http:// website.
@@ -34,5 +35,5 @@
 - Run `cat /var/log/ufw to see logs
 - You can standard input your firewall rule table to a file by using `sudo ufw status verbose > /tmp/config_firewall.policy`.
 - Once your firewall is enabled, try pinging 8.8.8.8. You'll notice that packets are transmitted, but none are received.
-- include pic of that^ i just took it, it says "op not permitted".
+- Picture:
 - A whole host of firewall policies can be implemented with this tool.
